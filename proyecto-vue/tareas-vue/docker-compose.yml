@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  sonarqube:
+    container_name: vuedocker
+    image: jbulla/vuedocker:v1.0
+    ports: 
+    - "9000:9000"
+    - "9092:9092"
+    networks:
+    - sonarnet

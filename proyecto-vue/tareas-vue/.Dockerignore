@@ -1,0 +1,6 @@
+node_modules
+coverage
+#dist
+.scannerwork
+#package-lock.json
+test-report.xml
