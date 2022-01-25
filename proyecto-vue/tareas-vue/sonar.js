@@ -1,4 +1,4 @@
-const scanner = require('sonarqube-scanner');
+const sonarqubeScanner = require('sonarqube-scanner');
 sonarqubeScanner( 
         {
         serverUrl : 'http://sonarjason22.eastus.cloudapp.azure.com:9000/',
@@ -10,8 +10,8 @@ sonarqubeScanner(
                 'sonar.sources': 'src',
                 'sonar.tests': 'tests/unit',
                 'sonar.test.inclusions': 'tests/unit/**/*.spec.js,tests/unit/**/*.spec.jsx', // Entry point of your code
-                'sonar.typescript.lcov.reportPaths': 'coverage/lcov.info',
-                'sonar.testExecutionReportPaths': 'coverage/test-reporter.xml'
+                'sonar.testExecutionReportPaths': 'test-reporter.xml',
+                'sonar.typescript.lcov.reportPaths': 'coverage/lcov.info'
                 }
         },
         () => process.exit());
