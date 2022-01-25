@@ -9,7 +9,7 @@
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "sonar": "node sonar.js",
     "test": "jest --coverage",
-    "test:coverage": "vue-cli-service test:unit --coverage",
+    "test:coverage": "vue-cli-service test:unit --coverage --testResultsProcessor jest-sonar-reporter",
     "lint": "vue-cli-service lint"    
   },
   "nyc": {

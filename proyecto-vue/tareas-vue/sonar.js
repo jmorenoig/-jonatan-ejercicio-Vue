@@ -1,5 +1,5 @@
 const scanner = require('sonarqube-scanner');
-scanner( 
+sonarqubeScanner( 
         {
         serverUrl : 'http://sonarjason22.eastus.cloudapp.azure.com:9000/',
         token : "180f50452f04092ffa56f722c918df4434e9973d",
