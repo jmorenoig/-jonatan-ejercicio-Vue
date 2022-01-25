@@ -11,7 +11,7 @@ sonarqubeScanner(
                 'sonar.tests': 'tests/unit',
                 'sonar.test.inclusions': 'tests/unit/**/*.spec.js,tests/unit/**/*.spec.jsx', // Entry point of your code
                 'sonar.typescript.lcov.reportPaths': 'coverage/lcov.info',
-                'sonar.testExecutionReportPaths': 'test-report.xml'
+                'sonar.testExecutionReportPaths': 'coverage/test-reporter.xml'
                 }
         },
         () => process.exit());
