@@ -7,11 +7,11 @@ sonarqubeScanner(
                 'sonar.projectKey': 'Juan-vue-Jenkins',
                 'sonar.projectName': 'Juan-vue-Jenkins',
                 'sonar.projectVersion': '1.0',
-                'sonar.sources': 'src',
-                'sonar.tests': 'tests/unit',
-                'sonar.test.inclusions': 'tests/unit/**/*.spec.js,tests/unit/**/*.spec.jsx', // Entry point of your code
-                'sonar.testExecutionReportPaths': 'test-reporter.xml',
-                'sonar.typescript.lcov.reportPaths': 'coverage/lcov.info'
+                // 'sonar.sources': 'src',
+                // 'sonar.tests': 'tests/unit',
+                // 'sonar.test.inclusions': 'tests/unit/**/*.spec.js,tests/unit/**/*.spec.jsx', // Entry point of your code
+                'sonar.typescript.lcov.reportPaths': 'coverage/lcov.info',
+                // 'sonar.testExecutionReportPaths': 'test-reporter.xml',
                 }
         },
         () => process.exit());

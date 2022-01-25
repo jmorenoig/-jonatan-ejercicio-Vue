@@ -3,7 +3,7 @@ node_modules
 dist
 coverage
 test-report.xml
-
+.scannerwork
 
 # local env files
 .env.local
