@@ -23,12 +23,12 @@ pipeline{
                     }
                 }
             }
-            stage ('Sonar') {
-                steps {
-                    dir("proyecto-vue/tareas-vue"){
-                        sh "npm run sonar"
-                    }
-                }
-            }        
+            // stage ('Sonar') {
+            //     steps {
+            //         dir("proyecto-vue/tareas-vue"){
+            //             sh "npm run sonar"
+            //         }
+            //     }
+            // }        
         }
 }
